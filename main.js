@@ -16,7 +16,7 @@ for(i=0;i<cookies.length;i+=1){
 }
 if(cookie){
 let data = cookie.split('/')
-container_h3.innerHTML=`Минулого разу ви дали ${data[1]} правильних відповідей із ${data[0]}.Точність - ${Mach.round(data[1]*100/data[0])}`
+container_h3.innerHTML=`Минулого разу ви дали ${data[1]} правильних відповідей із ${data[0]}.Точність - ${Math.round(data[1]*100/data[0])}`
 }
 
 
